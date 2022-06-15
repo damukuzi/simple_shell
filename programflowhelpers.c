@@ -171,3 +171,4 @@ int _forkprocess(char **av, char *buffer, char *fullpathbuffer)
 	free(av);
 	free(buffer);
 	return (exitstatus);
+}
